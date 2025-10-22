@@ -63,8 +63,8 @@ body {
 }
 
 .main .container .card .plan a:hover {
-    text-decoration: none;
-    color: hsl(245, 75%, 52%, 0.7);
+    opacity: 0.7;
+    text-decoration: none;    
 }
 
 .main .container .card .btn {
@@ -80,17 +80,22 @@ body {
     border-radius: 8px;
     padding: 0.8rem 6rem;
     color: var(--second-color);
+    transition: 0.3s;
     box-shadow: 0 2px 50px var(--third-color);
     background-color: var(--fourth-color);
-
 }
 
 .main .container .card .btn .payment:hover {
-    background-color: hsl(245, 75%, 52%, 0.8);
+    opacity: 0.7;
 }
 
+.main .container .card .btn .cancel {
+    color: var(--third-color);
+}
 
-
+.main .container .card .btn .cancel:hover {
+    color: var(--primary-color);
+}
 
 @media (max-width: 768px) {
     body {
