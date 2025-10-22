@@ -1,4 +1,5 @@
 body {
+    font-weight: 900;
     font-family: var(--font);
     color: var(--primary-color);
     background: var(--bg) url('../img/pattern-background-desktop.svg')no-repeat top/100%;
@@ -18,6 +19,7 @@ body {
 }
 
 .main .container .card p {
+    font-weight: 600;
     color: var(--third-color);
 }
 
@@ -32,7 +34,6 @@ body {
 }
 
 .main .container .card .text h1 {
-    font-weight: 900;
     font-size: 1.8rem;
     margin-bottom: 1rem;
 }
@@ -52,21 +53,43 @@ body {
     display: flex;
 }
 
-.main .container .card .plan h2 {
+.main .container .card .plan .plan-card h2 {
     font-size: 1rem;
-    font-weight: 900;
 }
 
 .main .container .card .plan a {
-    font-weight: 900;
     color: var(--fourth-color);
     text-decoration: underline;
 }
 
 .main .container .card .plan a:hover {
     text-decoration: none;
-   color: hsl(245, 75%, 52%, 0.7);
+    color: hsl(245, 75%, 52%, 0.7);
 }
+
+.main .container .card .btn {
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+
+.main .container .card .btn .payment {
+
+    border-radius: 8px;
+    padding: 0.8rem 6rem;
+    color: var(--second-color);
+    box-shadow: 0 2px 50px var(--third-color);
+    background-color: var(--fourth-color);
+
+}
+
+.main .container .card .btn .payment:hover {
+    background-color: hsl(245, 75%, 52%, 0.8);
+}
+
+
 
 
 @media (max-width: 768px) {
