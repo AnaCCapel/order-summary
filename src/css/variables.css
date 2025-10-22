@@ -1,0 +1,8 @@
+:root {
+    --primary-color: hsl(223, 47%, 23%);
+    --second-color: hsl(225, 100%, 98%);
+    --third-color: hsl(224, 23%, 55%);
+    --fourth-color: hsl(245, 75%, 52%);
+    --bg: hsl(225, 100%, 94%);
+    --font: "Red Hat Display", sans-serif;
+}

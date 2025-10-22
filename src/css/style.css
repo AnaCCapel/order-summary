@@ -1,0 +1,26 @@
+body {
+    background: var(--bg) url('../img/pattern-background-desktop.svg')no-repeat top/cover;
+    font-family: var(--font);
+}
+
+.main {
+    height: 100%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main .container .card {
+    background-color: var(--second-color);
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        background: var(--bg) url('../img/pattern-background-mobile.svg')no-repeat top/cover;
+    }
+
+    ;
+}
