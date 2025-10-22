@@ -22,18 +22,19 @@ The layout is composed of three main sections:
 
 ### 🖥️ Desktop Design
 
-
+<img width="480" height="228" alt="Order Summary Card" src="https://github.com/user-attachments/assets/9eb8a528-01b3-451b-b91c-5d968f1caa0a" />
 
 <br>
 
 ### 🖱️ Active State
 
-
+<img width="480" height="228" alt="Order Summary Card-Active" src="https://github.com/user-attachments/assets/2eba56ba-0221-4fb4-b296-8b4ab3ebc1fe" />
 
 <br>
 
 ### 📱 Mobile Design  
 
+<img width="244" height="274" alt="Order Summary Card-Mobile" src="https://github.com/user-attachments/assets/dcc34e69-848d-43a0-8bf0-7743b35b4d62" />
 
 <br>
 <br>
