@@ -1,5 +1,6 @@
 body {
     font-family: var(--font);
+    color: var(--primary-color);
     background: var(--bg) url('../img/pattern-background-desktop.svg')no-repeat top/100%;
 }
 
@@ -14,7 +15,10 @@ body {
     max-width: 28rem;
     border-radius: 13px;
     background-color: var(--second-color);
+}
 
+.main .container .card p {
+    color: var(--third-color);
 }
 
 .main .container .card .img {
@@ -22,6 +26,16 @@ body {
     border-radius: 13px 13px 0 0;
 }
 
+.main .container .card .text {
+    text-align: center;
+    margin: 2rem 3rem 0 3rem;
+}
+
+.main .container .card .text h1 {
+    font-weight: 900;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
 
 
 @media (max-width: 768px) {
