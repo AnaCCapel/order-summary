@@ -64,7 +64,7 @@ body {
 
 .main .container .card .plan a:hover {
     opacity: 0.7;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 .main .container .card .btn {
@@ -99,8 +99,6 @@ body {
 
 @media (max-width: 768px) {
     body {
-        background: var(--bg) url('../img/pattern-background-mobile.svg')no-repeat top/cover;
+        background: var(--bg) url('../img/pattern-background-mobile.svg')no-repeat top/100%;
     }
-
-    ;
 }
