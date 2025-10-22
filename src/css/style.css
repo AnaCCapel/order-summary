@@ -37,6 +37,37 @@ body {
     margin-bottom: 1rem;
 }
 
+.main .container .card .plan {
+    padding: 1rem;
+    margin: 1.5rem 3rem;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 94%, 0.4);
+}
+
+.main .container .card .plan .plan-card {
+    gap: 0.8rem;
+    display: flex;
+}
+
+.main .container .card .plan h2 {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.main .container .card .plan a {
+    font-weight: 900;
+    color: var(--fourth-color);
+    text-decoration: underline;
+}
+
+.main .container .card .plan a:hover {
+    text-decoration: none;
+   color: hsl(245, 75%, 52%, 0.7);
+}
+
 
 @media (max-width: 768px) {
     body {
